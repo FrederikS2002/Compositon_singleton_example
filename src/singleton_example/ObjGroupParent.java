@@ -1,3 +1,5 @@
+package singleton_example;
+
  
 
 import java.awt.*;

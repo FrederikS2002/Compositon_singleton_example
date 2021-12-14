@@ -1,7 +1,8 @@
-package obj;
+package singleton_example.obj;
+;
 
-import Main.MyJFrame;
-import Main.ObjParent;
+import singleton_example.MyJFrame;
+import singleton_example.ObjParent;
 
 import java.awt.*;
 

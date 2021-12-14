@@ -1,6 +1,6 @@
-package obj;
+package singleton_example.obj;
 
-import Main.ObjGroupParent;
+import singleton_example.ObjGroupParent;
 
 public class Group extends ObjGroupParent {
     public Group(int x, int y, boolean visible) {

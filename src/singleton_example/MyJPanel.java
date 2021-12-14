@@ -1,6 +1,8 @@
+package singleton_example;
+
  
 
-import obj.Group;
+import singleton_example.obj.Group;
 
 import javax.swing.*;
 import java.awt.*;
@@ -23,9 +25,9 @@ public class MyJPanel extends JPanel {
         this.setBackground(backgroundColor);
         this.setFocusable(true);
         //objects.add(new BlockString(120, 20, 100, 100,"blue",true));
-        objects.add((new Group(20, 20, true)));
+        objects.add(new Group(20, 20, true));
         //objects.add(new BlockWindowSize(10,10,100,100, "green", true));
-        //objects.add(new ObjGroupParent(20, 20, 100, 100,"green",true));
+        //objects.add(new singleton_example.ObjGroupParent(20, 20, 100, 100,"green",true));
     }
 
     public void paintComponent(Graphics g){

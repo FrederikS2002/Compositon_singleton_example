@@ -1,3 +1,5 @@
+package singleton_example;
+
  
 
 import java.awt.*;
@@ -40,22 +42,36 @@ public abstract class ObjParent {
 
 
     private Color getColor(){
-        return switch (color) {
-            case "back" -> Color.black;
-            case "red" -> Color.red;
-            case "blue" -> Color.blue;
-            case "yellow" -> Color.yellow;
-            case "green" -> Color.green;
-            case "magenta" -> Color.magenta;
-            case "white" -> Color.white;
-            case "gray" -> Color.gray;
-            case "cyan" -> Color.cyan;
-            case "darkGray" -> Color.darkGray;
-            case "lightGray" -> Color.lightGray;
-            case "orange" -> Color.orange;
-            case "pink" -> Color.pink;
-            default -> throw new IllegalArgumentException("color doesnt exist");
-        };
+        switch (color) {
+            case "back":
+                return Color.black;
+            case "red":
+                return Color.red;
+            case "blue":
+                return Color.blue;
+            case "yellow":
+                return Color.yellow;
+            case "green":
+                return Color.green;
+            case "magenta":
+                return Color.magenta;
+            case "white":
+                return Color.white;
+            case "gray":
+                return Color.gray;
+            case "cyan":
+                return Color.cyan;
+            case "darkGray":
+                return Color.darkGray;
+            case "lightGray":
+                return Color.lightGray;
+            case "orange":
+                return Color.orange;
+            case "pink":
+                return Color.pink;
+            default:
+                throw new IllegalArgumentException("color doesnt exist");
+        }
     }
 
     public int getX() {

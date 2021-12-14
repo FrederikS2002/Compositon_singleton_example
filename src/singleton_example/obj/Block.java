@@ -1,6 +1,6 @@
-package obj;
+package singleton_example.obj;
 
-import Main.ObjParent;
+import singleton_example.ObjParent;
 
 import java.awt.*;
 
