@@ -1,4 +1,4 @@
-package Main.obj;
+package obj;
 
 import Main.MyJFrame;
 import Main.ObjParent;

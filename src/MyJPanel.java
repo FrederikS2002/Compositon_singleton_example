@@ -1,9 +1,6 @@
-package Main;
+ 
 
-import Main.obj.Block;
-import Main.obj.BlockString;
-import Main.obj.BlockWindowSize;
-import Main.obj.Group;
+import obj.Group;
 
 import javax.swing.*;
 import java.awt.*;
